@@ -1,1 +1,29 @@
+body{
+  background-color: lightgoldenrodyellow;
+}
+
+
+
+.bi-telephone-fill{
+  color: white
+
+}
+
+.bi-geo-alt-fill{
+  color: white;
+
+}
+
+ .astro{
+   display: flex;
+   justify-content: flex-end;
+   position: ;
+ }
+
+.logo{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
 
