@@ -1,29 +1,59 @@
 body{
-  background-color: lightgoldenrodyellow;
+  background-color:burlywood;
+  font-family : 'Roboto', sans-serif ;
 }
 
+  .sndpage{
+    background-color: black;
+  }
 
+h1{
+ text-align: center;
+}
 
-.bi-telephone-fill{
+.bi-telephone-fill, .bi-geo-alt-fill{
   color: white
 
 }
 
-.bi-geo-alt-fill{
-  color: white;
 
-}
-
- .astro{
-   display: flex;
-   justify-content: flex-end;
-   position: ;
+ .size{
+  height: 200px;
+  width: auto;
  }
 
-.logo{
-  display: flex;
-  justify-content: space-evenly;
+ .ada{
+   text-align: center;
+   text-decoration: underline;
+ }
+
+.rounded-circle{
+  height: 50px;
+  width: auto;
+}
+
+ul{
+  list-style: none;
+}
+
+footer{
+  border: 20px solid lightslategray;
+  text-align:center;
+ 
   
 }
 
+
+a:not(.loremlink):not(.breadcrumblink){
+  text-decoration: none;
+  color: antiquewhite;
+}
+  
+
+
+.copyrights{
+  text-align: center;
+  font-size: larger;
+  
+}
 
