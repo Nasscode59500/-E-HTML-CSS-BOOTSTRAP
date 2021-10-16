@@ -9,8 +9,65 @@
    <link rel="stylesheet" href="style.css">
   <title>Evénement</title>
 </head>
-<body>
+<body class="sndpage">
+  <header>
+    <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+   <div class="container-fluid">
+    <a class="navbar-brand" href="#">SpaceTravel</a>
+    <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarText" 
+      aria-controls="navbarText" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Destination</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Devis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="évenement.html">Evenement</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+        </svg>
+        03.04.05.06.00
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+        </svg>
+        3000 Boulevard de la voie lactée
+      </span>
+    </div>
+  </div>
+ </nav>
+ </header>
+ <!--/Navbar-->
 
+ <!--Breadcrumb-->
+
+ <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+  <ol class="breadcrumb bg-warning">
+    <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+    <li class="breadcrumb-item"><a href="#">Destination</a></li>
+    <li class="breadcrumb-item"><a href="#">Devis</a></li>
+    <li class="breadcrumb-item"><a href="#">Evenement</a></li>
+    <li class="breadcrumb-item active" aria-current="Evenement"></li>
+  </ol>
+</nav>
+ <!--/Breadcrumb-->
   
 
 <div class="container">
@@ -52,49 +109,112 @@
     </div>
   </div>
 
+
+ <div class="container">
+  <div class="card mb-3">
+    <img src="https://cdn.pixabay.com/photo/2020/01/17/20/03/school-bus-4773905_960_720.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5>Appel au don (Association des premiers astronautes)</h5>
+      <p>Bonjour à toutes et à tous <br> 
+        <em>l'Association des premiers astronautes</em> souhaite participer à l'installation d'un résau de <i>bus scolaire</i> au sein de la capitale du <em>Nigeria</em> (Niamey),
+      et faciliter l'instruction au monde de de la physique, de l'astromnomie en installant plusieurs bibliothèques au sein des écoles</p>
+      <ul class="list-unstyled">
+        <li>
+         
+       <div class="d-grid justify-content-center">
+          <form class="form-inline">
+          <div class="d-grid gap-2">
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#eventschoolbus">Faire un don</a>
+         </div>
+       </div> 
+      </article> 
+    </div>
 </div>
 
 
- <!--Modal-->
- <div 
- class="modal"
- tabindex="-1"
- role="dialog"
- id="spacex"
+
+<!--Modal 1 Vr Event-->
+<div 
+class="modal"
+tabindex="-1"
+role="dialog"
+id="spacex"
 >
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Participer à l'évenement</h5>
-          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-             <span aria-hidden="true">&#x2715</span>
-          </button>
+<div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Participer à l'évenement</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&#x2715</span>
+        </button>
+    </div>
+       <form>
+         <div class="modal-body">
+         <div class="form-group">
+         <label class="primary">Nom</label>
+          <input type="text" class="form-control" id="element" placeholder="">
+         </div> 
+
+          <div class="form-group">
+           <label class="primary">Email</label>
+          <input type="text" class="form-control"  id="element" placeholder="">
+          </div>
+
+          <div class="form-floating">
+             <label for="floatingTextarea2"></label>
+             <textarea class="form-control" placeholder="" id="floatingTextarea2" style="height: 100px">
+            </textarea>
+          </div>
+         </form> 
+         <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          <button type="button" class="btn btn-success">Valider</button>      
+       </div>
+         </div>
       </div>
-         <form>
-           <div class="modal-body">
-           <div class="form-group">
-           <label class="primary">Nom</label>
-            <input type="text" class="form-control" id="element" placeholder="">
-           </div> 
-
-            <div class="form-group">
-             <label class="primary">Email</label>
-            <input type="text" class="form-control"  id="element" placeholder="">
-            </div>
-
-            <div class="form-floating">
-               <label for="floatingTextarea2">Commentaires</label>
-               <textarea class="form-control" placeholder="" id="floatingTextarea2" style="height: 100px">
-              </textarea>
-            </div>
-           </form> 
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-              <button type="button" class="btn btn-primary">Envoyer le message</button>      
-           </div>
+    </div>
+ </div>
+ </div>
+   
+ <!--Modal 2 eventschoolbus-->
+<div 
+class="modal"
+tabindex="-1"
+role="dialog"
+id="eventschoolbus"
+>
+<div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Participer à l'évenement associatif</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&#x2715</span>
+        </button>
+    </div>
+       
+         <div class="modal-body">
+          <div class="list-group">
+            <label class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="">
+              Carte bancaire
+            </label>
+            <label class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="">
+              Chèque <i>(uniquement en agence)</i>
+            </label>
+            <label class="list-group-item">
+              <a href="whatsapp/webapp/coizup072914">Lien Cotizup</a>
+            </label>
+            <label class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="">
+              Paypal
+          </div>
         </div>
-      </div>
-   </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitter</button>
+          <button type="button" class="btn btn-success">Valider</button>      
+       </div>
+       
  
 
   
