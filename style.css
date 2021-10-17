@@ -1,6 +1,7 @@
 body{
   background-color:burlywood;
   font-family : 'Roboto', sans-serif ;
+  font-size: larger;
 }
 
   .sndpage{
@@ -8,7 +9,13 @@ body{
   }
 
 h1{
- text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h5, h4{
+  font-weight: bold;
 }
 
 .bi-telephone-fill, .bi-geo-alt-fill{
@@ -16,13 +23,12 @@ h1{
 
 }
 
-
  .size{
   height: 200px;
   width: auto;
  }
 
- .ada{
+ h5{
    text-align: center;
    text-decoration: underline;
  }
@@ -39,21 +45,17 @@ ul{
 footer{
   border: 20px solid lightslategray;
   text-align:center;
- 
-  
 }
 
 
-a:not(.loremlink):not(.breadcrumblink){
+a:not(.bluelink):not(.breadcrumblink){
   text-decoration: none;
   color: antiquewhite;
 }
   
 
-
 .copyrights{
   text-align: center;
   font-size: larger;
-  
 }
 
